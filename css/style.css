@@ -6,7 +6,7 @@ h1 {
 	font-family: 'Josefin Sans', sans-serif;
 	font-weight: 700;
 	font-size: 12.0vw;
-	letter-spacing: -20px;
+	letter-spacing: -0.5vw;
 	margin-top: 20px;
 	color: white;
 }
@@ -15,7 +15,7 @@ h2 {
 	font-family: 'Josefin Sans', sans-serif;
 	font-weight: 700;
 	font-size: 12.0vw;
-	letter-spacing: -20px;
+	letter-spacing: 0px;
 	margin-top: 20px;
 	color: white;
 }
