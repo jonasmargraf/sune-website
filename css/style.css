@@ -1,5 +1,6 @@
 body {
-	/*background-color: black;*/
+	background-color: black;
+	background-image: 
 	margin: 0;
 	padding: 0;
 	overflow: hidden;
@@ -10,7 +11,7 @@ h1 {
 	font-weight: 700;
 	font-size: 17.0vw;
 	letter-spacing: -0.8vw;
-	/*margin-top: 20px;*/
+	margin-top: 20px;
 	margin-bottom: 0;
 	color: white;
 }
