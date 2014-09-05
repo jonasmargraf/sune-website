@@ -7,3 +7,4 @@ $('document').ready(function() {
 	if (window.matchMedia("(min-width: 769px)").matches) {
 			$("#wrapper").tubular({ videoId: 'EwY_X-RqlWs' });
 		}
+});
