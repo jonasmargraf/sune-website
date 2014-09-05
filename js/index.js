@@ -1,4 +1,9 @@
 $('document').ready(function() {
-	var options = { videoId: 'EwY_X-RqlWs' };
-	$('#wrapper').tubular(options);
-});
+
+// 	var options = { videoId: 'EwY_X-RqlWs' };
+// 	$('#wrapper').tubular(options);
+// });
+
+	if (window.matchMedia("(min-width: 769px)").matches) {
+			$("#wrapper").tubular({ videoId: 'EwY_X-RqlWs' });
+		}
