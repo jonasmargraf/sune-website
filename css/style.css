@@ -43,6 +43,13 @@ p {
 	left: 0;
 }
 
+@media screen and (max-width: 1500px) {
+	#background {
+		left: 50%;
+		margin-left: -750px;
+	}
+}
+
 #wrapper {
 	margin: 0 auto;
 	/*padding-top: 1px;*/
