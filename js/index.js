@@ -9,6 +9,6 @@ $('document').ready(function() {
 	}
 
 	else {
-		$("body").prepend($('<img id="background" src="media/background.jpg">'));
+		$("body").prepend($('<img id="background" src="media/mobile_background.gif">'));
 	}
 });
