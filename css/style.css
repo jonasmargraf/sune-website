@@ -70,9 +70,11 @@ a:hover {
 	}
 
 	iframe {
-		margin-left: 50px;
-		width: 60%;
-		height: 40%;
+		width: 70%;
+		height: 400;
+		background-color: transparent;
+		/*margin-top: 180px;*/
+		opacity: 0.9;
 	}
 
 }
@@ -108,9 +110,11 @@ a:hover {
 	}
 
 	iframe {
-		margin-left: 50px;
 		width: 60%;
-		height: 40%;
+		height: 400;
+		background-color: transparent;
+		/*margin-top: 180px;*/
+		opacity: 0.9;
 	}
 
 }
@@ -147,10 +151,10 @@ a:hover {
 
 	iframe {
 		width: 50%;
-		height: 300;
-		background-color: red;
+		height: 400;
+		background-color: transparent;
 		/*margin-top: 180px;*/
-		opacity: 0.3;
+		opacity: 0.9;
 	}
 
 }
