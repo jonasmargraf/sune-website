@@ -146,10 +146,9 @@ a:hover {
 	}
 
 	iframe {
-		margin-left: 50px;
 		width: 50%;
 		height: 300;
-		background-color: transparent;
+		background-color: white;
 		/*margin-top: 180px;*/
 		opacity: 0.3;
 	}
