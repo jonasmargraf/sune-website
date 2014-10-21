@@ -148,7 +148,7 @@ a:hover {
 	iframe {
 		width: 50%;
 		height: 300;
-		background-color: white;
+		background-color: red;
 		/*margin-top: 180px;*/
 		opacity: 0.3;
 	}
