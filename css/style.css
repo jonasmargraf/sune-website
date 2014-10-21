@@ -11,7 +11,7 @@ h1 {
 	font-size: 12.0vw;
 	letter-spacing: -0.8vw;
 	padding-top: 20px;
-	margin-bottom: -10%;
+	margin-bottom: 0;
 	color: white;
 }
 
@@ -20,7 +20,7 @@ h2 {
 	font-weight: 700;
 	font-size: 5.0vw;
 	letter-spacing: 0px;
-	margin-bottom: -5%;
+	margin-bottom: 0;
 	color: white;
 }
 
