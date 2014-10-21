@@ -1,9 +1,7 @@
 body {
 	background-color: black;
 	margin: 0;
-	margin-left: 5%;
 	padding: 0;
-	width: 90%;
 	/*position: 50% 50%;*/
 	overflow: hidden;
 	text-align: center;
@@ -45,6 +43,11 @@ a:hover {
 /*mobile stylings for screens with maximum width of 480px*/
 @media screen and (max-width: 480px) {
 
+	body {
+		margin-left: 5%;
+		width: 90%;
+	}
+
 	h1 {
 		font-family: 'Josefin Sans', sans-serif;
 		font-weight: 700;
@@ -84,6 +87,11 @@ a:hover {
 
 /*tablet stylings for screens with minimum width of 481px and maximum width of 768px*/
 @media screen and (min-width: 481px) and (max-width: 768px) {
+
+	body {
+		margin-left: 5%;
+		width: 90%;
+	}
 
 	h1 {
 		font-family: 'Josefin Sans', sans-serif;
