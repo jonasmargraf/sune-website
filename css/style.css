@@ -78,7 +78,7 @@ a:hover {
 	}
 
 	iframe {
-		width: 90%;
+		/*width: 90%;*/
 		height: 150;
 		background-color: transparent;
 		/*margin-top: 180px;*/
@@ -124,7 +124,7 @@ a:hover {
 	}
 
 	iframe {
-		width: 80%;
+		/*width: 80%;*/
 		height: 350;
 		background-color: transparent;
 		/*margin-top: 180px;*/
@@ -165,7 +165,7 @@ a:hover {
 	}
 
 	iframe {
-		width: 50%;
+		width: 60%;
 		height: 340;
 		background-color: transparent;
 		/*margin-top: 180px;*/
