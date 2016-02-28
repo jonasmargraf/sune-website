@@ -72,7 +72,7 @@ a:hover {
 		font-family: 'Josefin Sans', sans-serif;
 		font-weight: 400;
 		font-size: 6.0vw;
-		margin: 10px;
+		/*margin: 10px;*/
 		letter-spacing: 0px;
 		color: white;
 	}
@@ -118,7 +118,7 @@ a:hover {
 		font-family: 'Josefin Sans', sans-serif;
 		font-weight: 400;
 		font-size: 4.0vw;
-		margin: 20px;
+		/*margin: 20px;*/
 		letter-spacing: 0px;
 		color: white;
 	}
@@ -160,7 +160,7 @@ a:hover {
 		font-weight: 400;
 		font-size: 1.5vw;
 		letter-spacing: 0px;
-		margin: 20px;
+		/*margin: 20px;*/
 		color: white;
 	}
 
