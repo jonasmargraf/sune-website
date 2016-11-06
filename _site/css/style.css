@@ -45,9 +45,9 @@ h1, span {
 	font-weight: 300;
 	font-size: 16pt;
 	/* background: rgba(0, 0, 255, 0.7); */
-	color: blue;
-	background: white;
-	border-radius: 2px;
+	color: white;
+	background: blue;
+	border-radius: 0px;
 	/* color: white; */
 	opacity: 1;
 	text-align: justify;
@@ -71,9 +71,9 @@ h1 {
 
 a {
 	/* color: white; */
-	color: blue;
-	background: white;
-	border-radius: 2px;
+	color: white;
+	background: blue;
+	border-radius: 0px;
 	/* color: white; */
 	opacity: 1;
 	text-align: justify;
@@ -94,9 +94,12 @@ a:hover {
 	transition: text-decoration 0.5s;
 }
 
-img, .slide {
+.slide {
 	width: 90vw;
 	margin: 5vh 5vw;
+}
+
+img, iframe {
 	border-radius: 5px;
 	box-shadow: 10px 20px 30px dimgray;
 	-webkit-box-shadow: 10px 20px 30px dimgray;
@@ -106,4 +109,8 @@ img, .slide {
 iframe {
 	height: 50.625vw;
 	border-radius: 5px;
+}
+
+#sc-player {
+	height: 350px;
 }
