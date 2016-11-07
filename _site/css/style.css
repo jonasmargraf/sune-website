@@ -1,10 +1,13 @@
 html, * {
 	margin: 0;
 	padding: 0;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-weight: 300;
+	font-size: 20pt;
 }
 
 main {
-	width: 100vw;
+	/* width: 100vw; */
 	/* height: 100vh; */
 }
 
@@ -17,10 +20,10 @@ main {
 }
 
 p, ul {
-	margin: 0 2vw;
-	z-index: 1;
-	position: absolute;
-	width: 90vw;
+	/* margin: 0 2vw; */
+	/* z-index: 1; */
+	/* position: absolute; */
+	/* width: 90vw; */
 }
 
 #about {
@@ -33,34 +36,67 @@ p, ul {
 	right: -2vw;
 }
 
-#links li {
-	display: inline;
-	float: right;
-	margin-right: 2vw;
-}
+/* #links li { */
+	/* display: inline; */
+	/* float: right; */
+	/* margin-right: 2vw; */
+/* } */
 
 h1, span {
 	padding: 0.5%;
-	font-family: 'Roboto Condensed', sans-serif;
-	font-weight: 300;
-	font-size: 16pt;
 	/* background: rgba(0, 0, 255, 0.7); */
 	color: white;
 	background: blue;
 	border-radius: 0px;
 	/* color: white; */
 	opacity: 1;
-	text-align: justify;
+	text-align: left;
 	display: inline-block;
-	box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
-	-webkit-box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
-	-moz-box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+	/* box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5); */
+	/* -webkit-box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5); */
+	/* -moz-box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5); */
+}
+
+li {
+	list-style-type: none;
+	padding: 0.0%;
+	margin-bottom: 8pt;
+	/* margin: 0.5%; */
+}
+
+#blurb {
+	border: 2px solid blue;
+}
+
+#blurb span {
+	background: none;
+	color: blue;
+	font-weight: 500;
+}
+
+li span {
+	background: white;
+	/* color: blue; */
+	border: 2px solid blue;
+}
+
+li a {
+	/* font-size: 18pt; */
+	color: blue;
+	background: none;
+	font-weight: 500;
+	/* font-weight: italic; */
+	text-decoration: none;
+}
+
+li a:hover {
+	text-decoration: underline;
 }
 
 h1 {
 	top: 4%;
 	margin: 0 2vw;
-	font-size: 24pt;
+	font-size: 48pt;
 	font-weight: 700;
 	position: absolute;
 }
@@ -82,9 +118,14 @@ a {
 	/* -webkit-box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5); */
 	/* -moz-box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5); */
 	text-decoration: underline;
-	-webkit-transition: text-decoration 0.5s;
-	-moz-transition: text-decoration 0.5s;
-	transition: text-decoration 0.5s;
+	/* -webkit-transition: text-decoration 0.5s; */
+	/* -moz-transition: text-decoration 0.5s; */
+	/* transition: text-decoration 0.5s; */
+}
+
+ul {
+	display: block;
+	margin: 0;
 }
 
 a:hover {
